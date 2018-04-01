@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*css cho header*/
+header {
+	width: 100%;
+	height: 120px;
+	background-color: gray;
+}
+
+div.container {
+	width: 980px;
+	margin: auto;
+	height: 100%;
+}
+div.logo {
+	width: 300px;
+	height: 120px;
+	background-color: green;
+	float: left;
+}
+
+div.banner {
+	width: 680px;
+	height: 120px;
+	background-color: red;
+	float: left;
+}
+h3{
+	text-align: center;
+	padding-top: 30px;
+}
+/*css nav*/
+nav{
+	width: 100%;
+	height: 40px;
+	background-color: pink;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	display: block;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 40px;
+	padding:0px 20px;
+}
+ul {
+	text-align: center;
+}
+/*css main*/
+main{
+	width: 100%;
+	min-height: 100px;
+	background-color: #f2f591;
+}
+
+section#content{
+	width: 100%;
+	height: 500px;	
+	background-color: #79e979;
+}
+section#content section{
+	width: 680px;
+	height: 500px;
+	float: left;
+	background-color: yellow;
+}
+section#content aside{
+	width: 300px;
+	height: 500px;
+	float: left;
+	background-color: blue;
+}
+article{
+	width:100%;
+	height: 200px;
+	background-color: red;
+
+}
+
+div.box-1{
+	width: 100%;
+	height: 50%;
+	background-color: white;
+}
+
+div.box-2{
+	width: 100%;
+	height: 50%;
+	background-color: gray;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+	background-color: black;
+}
+footer h3{
+	color:white;
+}
