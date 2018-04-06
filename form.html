@@ -3,12 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Form</title>	
+		<style type="text/css" >
+		.image-upload > input
+			{
+			    display: none;
+			}
+			
+		</style>
 	</head>
 	<body>
 		<!-- form -->
 		<form action="#" method="" enctype="multipart/form-data">
 			<label for="txtUser">Username:</label>
 			<input type="text" id="txtUser" name="txtUser">
+
+			<div class="image-upload">
+			    <label for="file-input">
+			        <img src="placeholder.jpg"/>
+			    </label>
+
+			    <input id="file-input" type="file"/>
+			</div>
 		</form>
 		<!-- ./form -->
 	</body>
