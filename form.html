@@ -13,10 +13,58 @@
 	</head>
 	<body>
 		<!-- form -->
+		<!-- readonly="readonly" van gui server
+			disable = "disable" ko gui-->
 		<form action="#" method="" enctype="multipart/form-data">
-			<label for="txtUser">Username:</label>
-			<input type="text" id="txtUser" name="txtUser">
+			<label for="txtUser">Username:</label><br>
+			<input type="text" id="txtUser" name="txtUser" minlength="3" maxlength="5" required="required"><br>
 
+			<label for="txtPass">Password</label><br>
+			<input type="password" name="txtPass" id="txtPass" placeholder="Password"><br>
+
+			<label>number	
+			</label><br>
+			<input type="number" name="txtNumber" value="13456" placeholder="nhap so" readonly="readonly"><br>
+
+			<label>Date</label><br>
+			<input type="date" name="" value="" placeholder=""><br>
+
+			<label>Color</label><br>
+			<input type="color" name="" value="" placeholder=""><br>
+
+			<label>File</label><br>
+			<input type="file" name="" value="" placeholder=""><br>
+
+			<label>Gender</label>
+			<select name="gender" id="">
+				<option value="1">Man</option>
+				<option value="0" selected="selected">Woman</option>
+				<option value="2">LGBT</option>
+			</select><br>
+
+			<label>Gender</label><br>
+			<label>Man</label>
+			<input type="radio" name="gender" value="1">
+			<label>Woman</label>
+			<input type="radio" name="gender" value="0" checked="checked"><br>
+
+			<label>Rule</label>
+			<input type="checkbox" name="ok" value="" checked="checked"><br>
+
+			<label for="note">Notes</label>
+			<textarea name="note" id="note" rows="5" cols="10"></textarea><br>
+
+			<label>Email</label><br>
+			<input type="email" name="email"  placeholder="ex@domain.com"><br>
+
+			<label>URL</label><br>
+			<input type="url" name="" value="" placeholder="ex: https://abc.com">
+
+			<label>click me</label>
+			<button type="button">OK</button>
+			<button type="submit">Send</button>
+			<button type="reset">Reset</button>
+			<!-- upload anh -->
 			<div class="image-upload">
 			    <label for="file-input">
 			        <img src="placeholder.jpg"/>
@@ -24,6 +72,7 @@
 
 			    <input id="file-input" type="file"/>
 			</div>
+
 		</form>
 		<!-- ./form -->
 	</body>

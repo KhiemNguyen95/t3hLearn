@@ -1,0 +1,57 @@
+h3.myText{
+	color: blue;
+}
+/*class*/
+.myText{
+	color: green;
+}
+/*#myTitle{
+	color: yellow;
+}*/
+div div p.myP{
+	color: pink;
+}
+
+p.myP{
+	color: violet;
+}
+
+/*css attribute*/
+input[type]{
+	border: 1px solid pink;
+}
+/*input[class='test abc'] = input[type='email']*/
+input[class='test abc']{
+	border: 1px solid yellow;
+}
+
+input[type='email']{
+	border: 1px solid green;
+}
+/*--------------------------*/
+/*class = "abc test"
+input[class~='test'] true
+input[class~='abc'] true
+
+input[class~='bc'] false
+
+*/
+input[class~='test']{
+	border: 1px solid red;
+}
+
+input[class^='test']{
+	border: 1px solid red;
+}
+
+input[class$='c']{
+	border: 1px solid orange;
+}
+
+input[class*='e']{
+	border: 1px solid gray;
+}
+
+h2[class|='my'] {
+	color: red;
+}
