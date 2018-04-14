@@ -1,0 +1,145 @@
+/*box-2 lien ke*/
+div.box-1 + div.box-2{
+	height: 100px;
+	width: 100px;
+	border:1px solid red;
+}
+
+/*box-3 dung sau box-1*/
+div.box-1 ~ div.box-3{
+	height: 100px;
+	width: 100px;
+	border:1px solid blue;
+}
+
+/*the con*/
+div.container > div.box-1 >h3
+{
+	color: violet;
+	font-size: 	24px;
+}
+/*the nam trong*/
+div.container h3{
+	color:green;
+}
+
+div.container h3.text,p.text{
+	color: red;
+}
+
+/*pseudo class selector*/
+div.content :first-child {
+	color: pink;
+}
+
+div.content :first-of-type {
+	color: orange;
+}
+
+div.content :last-child {
+	color: yellow;
+}
+
+div.content :last-of-type {
+	color: blue;
+}
+
+div.content :nth-last-child(3){
+	color:gray;
+}
+
+div.content :nth-last-of-type(1){
+	color:silver;
+}
+
+div.content :nth-child(4){
+	color:tan;
+}
+
+div.content :nth-of-type(2){
+	color: violet;
+}
+
+/*con duy nhat*/
+div.container > div.parent h1:only-child{
+	color: red;
+}
+
+/*anchor*/
+div.container > div.anchor >input[name = "txtUser"]:forcus {
+	width: 100px;
+	height: 30px;
+	border: 1px solid red;
+}
+
+div.container > div.anchor >input[type = "checkbox"]:checked {
+	width: 30px;
+	height: 30px;
+
+	border: 2px solid red;
+
+}
+
+div.container > div.anchor >input[type = "radio"]:checked {
+	width: 30px;
+	height: 30px;
+	border: 2px solid red;
+
+}
+
+
+div.container > div.anchor > a:link {
+	text-decoration: none;
+	color: yellow;
+	font-weight: bolder;
+}
+
+div.container > div.anchor > a:visited {
+	text-decoration: none;
+	color: tan;
+	font-weight: bolder;
+}
+
+div.container > div.anchor > a:active {
+	text-decoration: none;
+	color: blue;
+	font-weight: bolder;
+}
+
+div.container > div.anchor > a:hover {
+	text-decoration: none;
+	color: red;
+	font-weight: bolder;
+}
+
+/*pseudo elements*/
+
+div.container div.element p::first-letter{
+	color: red;
+	font-size: 30px;
+}
+
+div.container div.element p::first-line{
+	color: green;
+	font-size: 30px;
+}
+
+/*div.container div.element p::before{
+	content: url('../resources/image/k.png');
+}*/
+
+div.container div.element p::after{
+	content:'KHIEM';
+	color: pink;
+}
+
+div.element{
+	height: 20px;
+}
+
+div.container div.element p::selection{
+	color: yellow;
+}
+
+
+
