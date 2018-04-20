@@ -1,0 +1,21 @@
+p.p1{
+	background: yellow;
+	width: 300px;
+	float: left;
+}
+
+p.p2 {
+	background: green;
+	width: 300px;
+	float: left;
+}
+
+p.p3 {
+	background: blue;
+	width: 300px;
+}
+
+
+div.clear{
+	clear: both;
+}

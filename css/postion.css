@@ -1,0 +1,26 @@
+div.box{
+	width: 300px;
+	height: 300px;
+	background: pink;
+	border: 1px solid red;
+	position: relative;
+	z-index: 1;
+	/* left: 200px;
+	top: 200px; */
+}
+
+img{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	z-index: 0;
+}
+
+div.nav{
+	width: 100%;
+	height: 30px;
+	background: black;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
