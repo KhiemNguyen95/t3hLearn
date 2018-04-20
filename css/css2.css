@@ -1,3 +1,7 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 /*box-2 lien ke*/
 div.box-1 + div.box-2{
 	height: 100px;
@@ -23,7 +27,7 @@ div.container h3{
 	color:green;
 }
 
-div.container h3.text,p.text{
+div.container h3.text, p.text{
 	color: red;
 }
 
@@ -124,22 +128,23 @@ div.container div.element p::first-line{
 	font-size: 30px;
 }
 
-/*div.container div.element p::before{
+/* div.container div.element p::before{
 	content: url('../resources/image/k.png');
-}*/
-
+}
+ */
 div.container div.element p::after{
 	content:'KHIEM';
 	color: pink;
 }
 
 div.element{
-	height: 20px;
+	/* width: 50px	; */
+	/* height: 20px; */
+	border: 1px solid black;
+	word-wrap: break-word;
+
 }
 
 div.container div.element p::selection{
 	color: yellow;
 }
-
-
-
