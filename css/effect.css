@@ -1,0 +1,67 @@
+div.box{
+	width: 300px;
+	height: 300px;
+	background: pink;
+
+	 background : linear-gradient(to left, red, yellow);
+    background : -moz-linear-gradient(left, red, yellow);
+    background : -webkit-linear-gradient(left, red, yellow);
+    background : -o-linear-gradient(left, red, yellow);
+    background : -ms-linear-gradient(left, red, yellow);
+
+
+}
+
+div.box1{
+	width: 300px;
+	height: 300px;
+	background: pink;
+
+	background : linear-gradient(20deg, red, yellow);
+    background : -moz-linear-gradient(20deg, red, yellow);
+    background : -webkit-linear-gradient(20deg, red, yellow);
+    background : -o-linear-gradient(20deg, red, yellow);
+    background : -ms-linear-gradient(20deg, red, yellow);
+	
+	/* transform */
+	transform: translate(50px, 100px);
+
+	transform: rotate(45deg);
+
+	-webkit-transform: scale(12, 12);
+	-ms-transform: scale(12, 12);
+	-o-transform: scale(12, 12);
+	transform: scale(12, 12);
+
+	-webkit-transform: skew(10deg,20deg);
+	-ms-transform: skew(10deg,20deg);
+	-o-transform: skew(10deg,20deg);
+	transform: skew(10deg,20deg);
+
+
+	/* transition */
+	-webkit-transition: all 5s ease-in 0s;
+	-o-transition: all 5s ease-in 0s;
+	transition: all 5s ease-in 0s;
+
+	position: relative;
+	/* animation */
+	-webkit-animation: demo 3s ease-in 0s 3 alternate;
+	-o-animation: demo 3s ease-in 0s 3 alternate;
+	animation: demo 3s ease-in 0s 3 alternate;
+}
+
+/* run transition */
+div.box1:hover{
+	width: 10px;
+	height: 10px;
+}
+/* run animation */
+@keyframes demo {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 500px;
+	}
+}

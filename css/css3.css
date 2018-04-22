@@ -9,6 +9,17 @@ p#shadow{
 	text-shadow: red 10px 10px 1px;
 }
 
+div.text{
+	width: 100px;
+	height: 20px;
+	border: 1px solid red;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+
 div.box-shadow{
 	border:  2px solid red;
 	box-shadow: black 10px 10px 1px;
