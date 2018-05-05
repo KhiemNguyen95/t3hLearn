@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	font-family: "Segoe UI",Arial,sans-serif;
+}
+.clear{
+	clear: both;
+}
+/* login */
+div.login{
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; 
+}
+div.login i {
+	color: #1da1f2;
+	font-size: 45px;
+}
+
+div.login h1{
+	font-size: 27px;
+}
+
+div.login div.login-content{
+	margin: auto;
+	max-width: 350px;
+}
+
+div.login div.login-content div.icon{
+	margin: 12px 0px;
+}
+div.login div.login-content div.login-bottom{
+	font-size: 14px;
+	margin: 20px 0px;
+}
+div.login div.login-content div.login-bottom div a.button{
+	display: inline-block;
+	line-height: 20px;
+	margin: 10px 0px;
+	width: 100%;
+	padding: 6px 16px;
+	text-align: center;
+}
+/* border buttom */
+div.login  a.button{
+	border-radius: 100px;
+	border:1px solid #1da1f2;
+	color: #1da1f2;
+	font-weight: bold;
+	text-decoration: none;
+}
+main div.login div.login-content div.icon a{
+	float: right;
+	padding: 12px;
+}
+/* hide form login */
+div.login div.form-login{
+	display: none;
+}
+
+/* login-bottom */
+main div.login-content div.login-bottom div a.register{
+	background: #1da1f2;
+	color: #fff;
+}
+
+main div.login-content div.login-bottom h2{
+	font-size: 18px;
+}
+/* infomation */
+main div.infomation{
+	background: #1da1f2;
+	color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;    
+	font-size: 18px;
+    font-weight: bold;    
+    line-height: 60px;
+    padding: 30px 0px;
+   
+}
+main div.infomation div.content{
+	margin: auto;
+	max-width: 440px;
+}
+main div.infomation div.content p i {
+	font-size: 30px;
+	margin-right: 16px;
+}
+/* footer */
+footer{
+	background: #fff;
+	border-top: 1px solid #e6ecf0;
+	color: #aab8c2;
+	font-size: 12px;
+	padding: 11px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+footer ul li{
+	display: inline-block;
+	padding: 0px 9px;
+}
+
+footer ul li a {
+	color: #aab8c2;
+	text-decoration: none;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+/* responsive */
+@media only screen and (min-width: 1025px)  {
+	main div.infomation{
+		float: left;
+		width: 50%;
+		height: 650px;
+	}
+	main div.login{
+		float: right;
+		width: 50%;
+		height: 650px;
+		position: relative;
+	}
+	/* hide button login div.icon */
+	main div.login div.login-content div.icon .destop-hide{
+		display: none;
+	}
+
+	/* form login */
+	main div.login  div.form-login{
+		display:block;
+		left: 0;
+   		position: absolute;
+    	top: 20px;
+    	width: 100%;
+    	padding: 12px;
+	}
+
+	div.login div.form-login div.input{
+		display: inline-table;
+	}
+	div.login div.form-login div.input input{
+		border: 1px solid #e6ecf0;
+		display: inline-block;
+		height: 40px;
+		margin-right: 12px;		
+		width: 175px;
+		padding: 12px;
+	}
+	div.login div.form-login a.button{
+		display: inline-table;
+		font-size: 14px;
+		height: 40px;
+		width: 110px;
+		padding: 6px 16px;
+		text-align: center;
+	}
+	/* foget pass */
+	div.login div.form-login a.foget-pass{
+		color: #aab8c2;
+		font-size: 14px;
+		text-decoration: none;
+
+	}
+	div.login div.form-login a.foget-pass:hover{
+		text-decoration: underline;
+	}
+}
