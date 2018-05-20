@@ -37,13 +37,97 @@ let regViettelPhone10 = /^0(9[6-8]|8[6])\d{7}$/gi;
 let regViettelPhone11 = /^016[2-9]{8}$/gi;
 
 
-// date VN dd/mm/YYYY
-let regVNDate = /^(0[1-9]|1\d|2\d|3[0,1])\/(0[1-9]|1[0-2])\/[1-9]\d{3}$/gi;
-let testNum = '01/01/2111';
+// date  dd/mm/YYYY
+let regDate = /^(0[1-9]|1\d|2\d|3[0,1])\/(0[1-9]|1[0-2])\/[1-9]\d{3}$/gi;
+let testNum = '30/09/2016';
+// kiem tra dung dinh dang ngay chua
+if(regDate.test(testNum)){	
+	// lay chuoi thoa man regDate trong  testNum
+	let condition = testNum.match(regDate);
+	let strDate = condition.join();
+	let arrDate = strDate.split('/');
 
-if(regVNDate.test(testNum)){
-	console.log("dung");
+	let day = arrDate[0];
+	day = Number.parseInt(day);
+	let month = arrDate[1];
+	month = Number.parseInt(month);
+	let year = arrDate[2];
+	year = Number.parseInt(year);
+
+	let month31 = [1,3,5,7,8,10,12];
+	let month30 = [4,6,9,11];
+	// kiem tra ngay hop le
+	// check thang 2
+	if(month === 2)
+	{
+		if(day == 29){
+			// check year
+			if((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)){
+				console.log('thang 2 ok');
+			} else {
+				console.log(`${year} ko la nam nhuan`);
+			}
+		} else if(day >29){
+			console.log('thang 2 co 29 ngay');
+		} else{
+			console.log('thang 2 ok');
+		}
+	}else if(month31.indexOf(month) != 1 && day > 31){
+		// month have 31 day
+		console.log(`thang ${month}  co 31 ngay`);
+
+	}else if(month30.indexOf(month) != 1 && day > 30){
+		// month have 30 day
+		console.log(`thang ${month}  co 30 ngay`);
+	}else {
+		console.log('dinh dang ngay dung');
+	}
+	
+	
+
 }else{
 	console.log('sai');
 }
+//end date  dd/mm/YYYY
+// ---------------------------------
+// replace
+let strclass = 'class js ad';
+let checkTu = /js/gi;
 
+strclass = strclass.replace(checkTu,'php')
+// console.log(strclass);
+
+// 
+let strNum =' 20 la so chan';
+let checkNum = /\d/gi;
+
+// kiem tra ton tai so trong chuoi
+if(checkNum.test(strNum)){	
+	let num = strNum.match(checkNum);
+	// num =['2','0'];
+	// string to number
+	let num1  = 0;
+	num.forEach( function(el){
+		num1 += el;
+		num1 = Number.parseInt(num1);
+	});
+
+	// let num = checkNum.exec(strNum);
+	num = num.toString().replace(",","");
+	num = Number.parseInt(num);
+	console.log(num1);
+	if(num1 % 2 == 0){
+		strNum = strNum.replace('chan','le');
+		strNum = strNum.replace(checkNum,'69');
+	}
+	
+}
+// -------------------------------
+let checkNum6 = /^[1-9][0,2,4,6,8]\d[1,3,5,7,9]\d[0,5]$/gi;
+strNum = '281305';
+console.log(strNum);
+if(checkNum6.test(strNum)){	
+	console.log('true');
+}else{
+	console.log('false');
+}
