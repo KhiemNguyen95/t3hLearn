@@ -54,16 +54,3 @@
 // 	{
 // 		console.log(i);
 // 	}
-
-let a = 1;
-let b = 1;
-
-let c;
- 
- c = ++a + 2;
- console.log("c"+c);
- console.log("a" +a);
-
- c = b++ + 2;
-  console.log("c"+c);
- console.log("b"+b);

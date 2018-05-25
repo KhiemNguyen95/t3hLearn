@@ -109,11 +109,12 @@ function ptBac2(a, b, c){
 
 }
 
-// test2=ptBac2(1,10,3)();
+ // test2=ptBac2(1,10,3)();
 
 // Constructor
 let myFunc = new Function("a","b","return a+b");
  console.log(myFunc);
+ 
 let useMyFunc = function(a,b){
 	return myFunc(a,b);
 }

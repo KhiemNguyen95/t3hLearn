@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>JS-event</title>		
+	</head>
+	<body onerror="myErr();"  onload="myLoad();" onresize="myResize();">
+		<button onclick="myClick();"> onclick</button> 
+		<hr>
+		onblur
+		<input type="text" onblur="myBlur(this);">
+
+		<hr>
+		onforcus
+		<input type="text" onfocus="myFocus(this);">
+
+		<hr>
+		<button ondblclick="myDBClick();"> dbclick</button> 
+
+		<hr>
+		onchange
+		<label for="">gender</label>
+		<select name="slGender" onchange="myChange(this.value)">
+			<option value="1">Nam</option>
+			<option value="0">Nu</option>
+		</select>
+
+		<hr>
+		onkeydown/press/up
+		<input type="text" onkeydown="myKeyDown()" onkeypress="myKeyPress()"
+		onkeyup="myKeyUp()">
+		<hr>
+		onmouse
+		<button onmousedown="myMouseDown();"onmouseup="myMouseUp();"> onmouse</button> 
+		<br>
+		<img src="resources/image/K.png" width="100px" onmouseover="myOver(this);"
+		onmouseout="myOut(this);"
+		onmousemove="myMove(this)">
+		
+		<hr>
+		onselect
+		<textarea onselect="mySelect();">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, cumque!</textarea>
+
+
+		<script type="text/javascript" src="js/event.js"></script>
+	</body>
+</html>

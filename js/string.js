@@ -131,3 +131,40 @@ if(checkNum6.test(strNum)){
 }else{
 	console.log('false');
 }
+
+
+// checkpassword
+console.log('-----------------check pass-------------------------------');
+let arrPassWord = ['1gV','AHHjj4','12345678','asdfghjk','DfsvvGtGBygGGGG','ASDFGHJK','DFasdFgh','SD54GGJF','1fgh5gr2','2jjfAFj2S','4dsdh123KK','df15588741','AdS12f14jDg5uj845'];
+
+
+let regPassWord = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[A-Za-z0-9]{8,}$/g;//(\d{1,})([a-z]{1,})([A-Z]{1,}) (\d+)([a-z]+)([A-Z]+)
+
+console.log(regPassWord.test('4dsdKKh123'));
+let checkPass = (pass)=>{
+	let regLength8 = /\w{8,}/g;
+	let regUpCase = /[A-Z]/g;
+	let regLowCase = /[a-z]/g;
+	let regNum = /[0-9]/g;
+
+	let flag = false;
+
+	// if(regLength8.test(pass) && regUpCase.test(pass) && regLowCase.test(pass) && regNum.test(pass)){
+	// 	flag = true;
+	// }
+
+	if(regPassWord.test(pass)){
+		return true;
+	}
+	return flag;
+
+}
+arrPassWord.forEach(function(pass){
+	if(regPassWord.test(pass)){
+		console.log(''+pass+' hop le :');//+pass.match(regPassWord)
+		//console.log(pass.match(regPassWord));
+	} else{
+		console.log(''+pass+' khong hop le');
+	}
+});
+console.log('-----------------check pass-------------------------------');
