@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>validate</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			border:  0;
+		}
+		div.form{
+			width: 350px;
+			margin: 20px auto;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			padding: 10px;
+		}
+		input{
+			width: 100%;
+			height: 23px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+
+		}
+		.btn{
+			padding: 3px 10px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+		}
+		.errors{
+			display: none;
+			color: red;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="form">
+		<div class="form-gruop">
+			<label>
+			user name (*)
+			</label>
+			<input type="text" id="name" name="txt_name">
+			<span class="errors" id="errUser"></span>
+		</div>
+		
+		<div class="form-gruop">
+			<label>
+			pass (*)
+			</label>
+			<input type="text" id="pass" name="txt_pass">
+			<span class="errors" id="errPass"></span>
+		</div>
+		
+		
+		<div class="form-gruop">
+			<label>
+			email (*)
+			</label>
+			<input type="text" id="email" name="txt_email">
+			<span class="errors" id="errEmail"></span>
+		</div>
+		
+		
+		<div class="form-gruop">
+			<label>
+			phone (*)
+			</label>
+			<input type="text" id="phone" name="txt_phone">
+			<span class="errors" id="errPhone"></span>
+		</div>
+
+		<div class="form-gruop">
+			<button type="button" class="btn" id='btnSubmit'>Register</button>
+		</div>
+		
+		
+	</div>
+<script src="js/validate.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
