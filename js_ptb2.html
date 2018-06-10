@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PTB2</title>
+	<style type="text/css" media="screen">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div.content{
+			width: 500px;
+			height: 300px;
+			margin: 10px auto;
+			padding: 20px;
+			background: #eee;
+			text-align: center;
+			border: 1px solid green;
+			box-shadow: 10px 10px 12px 0px #ccc;
+		}
+		div.content div.input{
+			width: 100%;
+			margin: 10px;
+			padding: 0px 10px;
+		}
+		div.content button{
+			color: white;
+			background: #4267b2;
+			border-radius: 20px;
+			padding: 10px;
+		}
+		p#err{
+			display: none;
+			color: red;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- content -->
+		<div class="content">
+			<h1>Phương trình ax<sup>2</sup> + bx +c = 0</h1>
+			<p id="err">Mời nhập dữ liệu  và dữ liệu phải là số</p>
+			<!-- he so a -->
+			<div class="input">
+				<label>hệ số a:</label>
+				<input type="text" name ='txt_a' id='num_a' autofocus = true>
+			</div>
+			<!-- he so b -->
+			<div class="input">
+				<label>hệ số b:</label>
+				<input type="text" name ='txt_b' id='num_b'>
+			</div>
+			<!-- he so c -->
+			<div class="input">
+				<label>hệ số c:</label>
+				<input type="text" name ='txt_c' id='num_c'>
+			</div>
+			<button id='btnSolve'>Solve</button>
+			<button id='btnReset'>Reset</button>
+
+			<div id="result">
+				
+			</div>
+		</div>
+		<!-- ./content -->
+	</div>
+	<script src="js/dom_ptb2.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
