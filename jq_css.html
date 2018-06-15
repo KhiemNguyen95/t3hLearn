@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>jq_css_fillter</title>
+	<script src="../jq-3.2/jquery-3.2.0.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jq_css.js"></script>
+</head>
+<body>
+	<button type="button" id='btCss'> 
+	Click me!
+	</button>
+	<div class="content">
+		<p>this is content</p>
+	</div>
+
+	<!--  -->
+	<div class="box">
+		<p>this is p1</p>
+		<p class = 'last-child'>this is p2</p>
+		<p>this is p3</p>
+		<p class = 'last-child'>this is p4</p>
+		<ul>
+			<li>li 1</li>
+			<li class="second">li 2</li>
+			<li>li 3</li>
+			<li class="find">li 4</li>
+			<h3>this is h3</h3>
+			<h3>this is h32</h3>
+		</ul>
+		<input type="checkbox" name="check" id="check">
+	</div>
+	<button type="button" id='bt_box'> 
+	filter!
+	</button>
+
+	<div class="dom" style="width: 100px;height: 100px;border: 1px solid #ccc">
+		<h4>lap trinh h4</h4>
+		<span>lap trinh</span>		
+	</div>
+	<button type="button" id='btnHide'> 
+		Hide!
+	</button>
+	<button type="button" id='btnShow'> 
+		Show!
+	</button>
+	<button type="button" id='btnTog'> 
+		toggle!
+	</button>
+
+</body>
+</html>
