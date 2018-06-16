@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo JQ</title>
+    <script src="../jq-3.2/jquery-3.2.0.js" type="text/javascript"></script>
+    <style type="text/css">
+        *{margin: 0;padding: 0}
+        .content{
+            width: 980px;
+            margin: 20px auto;
+            padding: 8px;
+        }
+        .chat, .message{
+            width: 45%;
+            float: left;
+            margin-left: 5%;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="chat">
+            <h3>Enter message</h3>
+            <textarea id="chat" rows="10"></textarea>
+        </div>
+        <div class="message">
+            <h3>Content</h3>
+            <p id="result"></p>
+        </div>
+        <div class="clear"></div>
+        <table width="100%" border="1" cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Quanity</th>
+                    <th>Price</th>
+                    <th>Money</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Iphone X</td>
+                    <td>
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/114115/iphone-x-64gb-hh-600x600-600x600.jpg" alt="" width="120" height="120">
+                    </td>
+                    <td>
+                        <input class="numberOder" type="number" value="1">
+                    </td>
+                    <td id="price">
+                        19000
+                    </td>
+                    <td class="money">
+                        19000
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Iphone 8 plus</td>
+                    <td>
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/114115/iphone-x-64gb-hh-600x600-600x600.jpg" alt="" width="120" height="120">
+                    </td>
+                    <td>
+                        <input class="numberOder" type="number" value="1">
+                    </td>
+                    <td id="price">
+                        2500
+                    </td>
+                    <td class="money">
+                        2500
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total Money</td>
+                    <td colspan="5" id="total"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $('#chat').keydown(function(){
+                let content = $(this).val().trim();
+                ///console.log(content);
+                $('#result').html(content);
+            });
+            $('.numberOder').change(function(){
+                let qty = $(this).val().trim();
+                qty = Number.parseInt(qty);
+                let price = $(this).parent().next().text().trim();
+                price = Number.parseInt(price);
+                let money = qty*price;
+                $(this).parent().next().next().html(money);
+                let totalMoney = 0;
+                $('.money').each(function(index) {
+                    let m = $(this).text().trim();
+                    m = Number.parseInt(m);
+                    totalMoney += m;
+                });
+                //console.log(totalMoney);
+                $('#total').html(totalMoney);
+            })
+        });
+    </script>
+</body>
+</html>
