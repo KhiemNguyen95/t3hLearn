@@ -1,0 +1,922 @@
+{
+  "cod": "200",
+  "message": 0.006,
+  "cnt": 27,
+  "list": [
+    {
+      "dt": 1532876400,
+      "main": {
+        "temp": 25.03,
+        "temp_min": 25.03,
+        "temp_max": 25.33,
+        "pressure": 1015.89,
+        "sea_level": 1019.73,
+        "grnd_level": 1015.89,
+        "humidity": 98,
+        "temp_kf": -0.3
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 80
+      },
+      "wind": {
+        "speed": 1.07,
+        "deg": 59.0023
+      },
+      "rain": {
+        "3h": 2.54
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-29 15:00:00"
+    },
+    {
+      "dt": 1532887200,
+      "main": {
+        "temp": 24.51,
+        "temp_min": 24.51,
+        "temp_max": 24.71,
+        "pressure": 1016.05,
+        "sea_level": 1019.87,
+        "grnd_level": 1016.05,
+        "humidity": 99,
+        "temp_kf": -0.2
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 80
+      },
+      "wind": {
+        "speed": 1.59,
+        "deg": 196.502
+      },
+      "rain": {
+        "3h": 1.86
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-29 18:00:00"
+    },
+    {
+      "dt": 1532898000,
+      "main": {
+        "temp": 25.04,
+        "temp_min": 25.04,
+        "temp_max": 25.14,
+        "pressure": 1017.06,
+        "sea_level": 1020.81,
+        "grnd_level": 1017.06,
+        "humidity": 98,
+        "temp_kf": -0.1
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 68
+      },
+      "wind": {
+        "speed": 1.22,
+        "deg": 192.501
+      },
+      "rain": {
+        "3h": 0.019999999999996
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-29 21:00:00"
+    },
+    {
+      "dt": 1532908800,
+      "main": {
+        "temp": 26.38,
+        "temp_min": 26.38,
+        "temp_max": 26.38,
+        "pressure": 1017.9,
+        "sea_level": 1021.72,
+        "grnd_level": 1017.9,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 92
+      },
+      "wind": {
+        "speed": 1.62,
+        "deg": 140.501
+      },
+      "rain": {
+        "3h": 0.79000000000001
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-30 00:00:00"
+    },
+    {
+      "dt": 1532919600,
+      "main": {
+        "temp": 26.23,
+        "temp_min": 26.23,
+        "temp_max": 26.23,
+        "pressure": 1017.84,
+        "sea_level": 1021.54,
+        "grnd_level": 1017.84,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 80
+      },
+      "wind": {
+        "speed": 2.47,
+        "deg": 183
+      },
+      "rain": {
+        "3h": 1.62
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-30 03:00:00"
+    },
+    {
+      "dt": 1532930400,
+      "main": {
+        "temp": 27.14,
+        "temp_min": 27.14,
+        "temp_max": 27.14,
+        "pressure": 1017.11,
+        "sea_level": 1020.82,
+        "grnd_level": 1017.11,
+        "humidity": 93,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 48
+      },
+      "wind": {
+        "speed": 1.96,
+        "deg": 209.5
+      },
+      "rain": {
+        "3h": 0.25
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-30 06:00:00"
+    },
+    {
+      "dt": 1532941200,
+      "main": {
+        "temp": 26.88,
+        "temp_min": 26.88,
+        "temp_max": 26.88,
+        "pressure": 1016.8,
+        "sea_level": 1020.6,
+        "grnd_level": 1016.8,
+        "humidity": 90,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "mưa nhẹ",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 32
+      },
+      "wind": {
+        "speed": 2.08,
+        "deg": 191.502
+      },
+      "rain": {
+        "3h": 0.019999999999996
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-30 09:00:00"
+    },
+    {
+      "dt": 1532952000,
+      "main": {
+        "temp": 24.67,
+        "temp_min": 24.67,
+        "temp_max": 24.67,
+        "pressure": 1017.49,
+        "sea_level": 1021.29,
+        "grnd_level": 1017.49,
+        "humidity": 93,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "mây thưa",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 24
+      },
+      "wind": {
+        "speed": 1.97,
+        "deg": 194.001
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-30 12:00:00"
+    },
+    {
+      "dt": 1532962800,
+      "main": {
+        "temp": 23.46,
+        "temp_min": 23.46,
+        "temp_max": 23.46,
+        "pressure": 1017.24,
+        "sea_level": 1020.98,
+        "grnd_level": 1017.24,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "mây thưa",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 12
+      },
+      "wind": {
+        "speed": 1.76,
+        "deg": 189.002
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-30 15:00:00"
+    },
+    {
+      "dt": 1532973600,
+      "main": {
+        "temp": 22.86,
+        "temp_min": 22.86,
+        "temp_max": 22.86,
+        "pressure": 1016.73,
+        "sea_level": 1020.38,
+        "grnd_level": 1016.73,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 2.21,
+        "deg": 195.001
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-30 18:00:00"
+    },
+    {
+      "dt": 1532984400,
+      "main": {
+        "temp": 24.06,
+        "temp_min": 24.06,
+        "temp_max": 24.06,
+        "pressure": 1016.89,
+        "sea_level": 1020.63,
+        "grnd_level": 1016.89,
+        "humidity": 93,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 8
+      },
+      "wind": {
+        "speed": 2.07,
+        "deg": 209.002
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-30 21:00:00"
+    },
+    {
+      "dt": 1532995200,
+      "main": {
+        "temp": 27.29,
+        "temp_min": 27.29,
+        "temp_max": 27.29,
+        "pressure": 1017.14,
+        "sea_level": 1020.79,
+        "grnd_level": 1017.14,
+        "humidity": 92,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 2.11,
+        "deg": 209.502
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-31 00:00:00"
+    },
+    {
+      "dt": 1533006000,
+      "main": {
+        "temp": 28.98,
+        "temp_min": 28.98,
+        "temp_max": 28.98,
+        "pressure": 1016.03,
+        "sea_level": 1019.7,
+        "grnd_level": 1016.03,
+        "humidity": 82,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "mây thưa",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 12
+      },
+      "wind": {
+        "speed": 2.67,
+        "deg": 205
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-31 03:00:00"
+    },
+    {
+      "dt": 1533016800,
+      "main": {
+        "temp": 29.65,
+        "temp_min": 29.65,
+        "temp_max": 29.65,
+        "pressure": 1014.86,
+        "sea_level": 1018.47,
+        "grnd_level": 1014.86,
+        "humidity": 75,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 3.66,
+        "deg": 207.003
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-31 06:00:00"
+    },
+    {
+      "dt": 1533027600,
+      "main": {
+        "temp": 28.54,
+        "temp_min": 28.54,
+        "temp_max": 28.54,
+        "pressure": 1014.39,
+        "sea_level": 1018,
+        "grnd_level": 1014.39,
+        "humidity": 76,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 3.66,
+        "deg": 201.003
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-31 09:00:00"
+    },
+    {
+      "dt": 1533038400,
+      "main": {
+        "temp": 26.61,
+        "temp_min": 26.61,
+        "temp_max": 26.61,
+        "pressure": 1014.78,
+        "sea_level": 1018.51,
+        "grnd_level": 1014.78,
+        "humidity": 86,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 3,
+        "deg": 191.501
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-31 12:00:00"
+    },
+    {
+      "dt": 1533049200,
+      "main": {
+        "temp": 25.87,
+        "temp_min": 25.87,
+        "temp_max": 25.87,
+        "pressure": 1014.45,
+        "sea_level": 1018.24,
+        "grnd_level": 1014.45,
+        "humidity": 92,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "mây rải rác",
+          "icon": "03n"
+        }
+      ],
+      "clouds": {
+        "all": 44
+      },
+      "wind": {
+        "speed": 2.41,
+        "deg": 209.007
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-31 15:00:00"
+    },
+    {
+      "dt": 1533060000,
+      "main": {
+        "temp": 25.72,
+        "temp_min": 25.72,
+        "temp_max": 25.72,
+        "pressure": 1013.91,
+        "sea_level": 1017.64,
+        "grnd_level": 1013.91,
+        "humidity": 95,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "mây rải rác",
+          "icon": "03n"
+        }
+      ],
+      "clouds": {
+        "all": 36
+      },
+      "wind": {
+        "speed": 1.92,
+        "deg": 223.001
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-07-31 18:00:00"
+    },
+    {
+      "dt": 1533070800,
+      "main": {
+        "temp": 26.26,
+        "temp_min": 26.26,
+        "temp_max": 26.26,
+        "pressure": 1013.99,
+        "sea_level": 1017.78,
+        "grnd_level": 1013.99,
+        "humidity": 92,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "mây thưa",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 24
+      },
+      "wind": {
+        "speed": 1.55,
+        "deg": 245.501
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-07-31 21:00:00"
+    },
+    {
+      "dt": 1533081600,
+      "main": {
+        "temp": 29.61,
+        "temp_min": 29.61,
+        "temp_max": 29.61,
+        "pressure": 1014.26,
+        "sea_level": 1017.97,
+        "grnd_level": 1014.26,
+        "humidity": 81,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "mây rải rác",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 32
+      },
+      "wind": {
+        "speed": 1.11,
+        "deg": 209.507
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-08-01 00:00:00"
+    },
+    {
+      "dt": 1533092400,
+      "main": {
+        "temp": 31.44,
+        "temp_min": 31.44,
+        "temp_max": 31.44,
+        "pressure": 1012.97,
+        "sea_level": 1016.71,
+        "grnd_level": 1012.97,
+        "humidity": 76,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "mây thưa",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 24
+      },
+      "wind": {
+        "speed": 1.77,
+        "deg": 198
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-08-01 03:00:00"
+    },
+    {
+      "dt": 1533103200,
+      "main": {
+        "temp": 31.76,
+        "temp_min": 31.76,
+        "temp_max": 31.76,
+        "pressure": 1011.67,
+        "sea_level": 1015.33,
+        "grnd_level": 1011.67,
+        "humidity": 70,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "mây rải rác",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 36
+      },
+      "wind": {
+        "speed": 3,
+        "deg": 200.002
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-08-01 06:00:00"
+    },
+    {
+      "dt": 1533114000,
+      "main": {
+        "temp": 30.31,
+        "temp_min": 30.31,
+        "temp_max": 30.31,
+        "pressure": 1011.56,
+        "sea_level": 1015.19,
+        "grnd_level": 1011.56,
+        "humidity": 72,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "02d"
+        }
+      ],
+      "clouds": {
+        "all": 8
+      },
+      "wind": {
+        "speed": 3.15,
+        "deg": 194.005
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-08-01 09:00:00"
+    },
+    {
+      "dt": 1533124800,
+      "main": {
+        "temp": 27.67,
+        "temp_min": 27.67,
+        "temp_max": 27.67,
+        "pressure": 1012.36,
+        "sea_level": 1016.11,
+        "grnd_level": 1012.36,
+        "humidity": 85,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "mây thưa",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 12
+      },
+      "wind": {
+        "speed": 2.66,
+        "deg": 183.508
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-08-01 12:00:00"
+    },
+    {
+      "dt": 1533135600,
+      "main": {
+        "temp": 26.47,
+        "temp_min": 26.47,
+        "temp_max": 26.47,
+        "pressure": 1012.43,
+        "sea_level": 1016.14,
+        "grnd_level": 1012.43,
+        "humidity": 95,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 8
+      },
+      "wind": {
+        "speed": 1.17,
+        "deg": 171.004
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-08-01 15:00:00"
+    },
+    {
+      "dt": 1533146400,
+      "main": {
+        "temp": 25.86,
+        "temp_min": 25.86,
+        "temp_max": 25.86,
+        "pressure": 1012.44,
+        "sea_level": 1016.17,
+        "grnd_level": 1012.44,
+        "humidity": 96,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "bầu trời quang đãng",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 8
+      },
+      "wind": {
+        "speed": 0.9,
+        "deg": 92.5038
+      },
+      "rain": {},
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2018-08-01 18:00:00"
+    },
+    {
+      "dt": 1533157200,
+      "main": {
+        "temp": 26.65,
+        "temp_min": 26.65,
+        "temp_max": 26.65,
+        "pressure": 1013.29,
+        "sea_level": 1016.95,
+        "grnd_level": 1013.29,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "mây rải rác",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 32
+      },
+      "wind": {
+        "speed": 1.61,
+        "deg": 28.0066
+      },
+      "rain": {},
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2018-08-01 21:00:00"
+    }
+  ],
+  "city": {
+    "id": 1850147,
+    "name": "Tokyo",
+    "coord": {
+      "lat": 35.6828,
+      "lon": 139.759
+    },
+    "country": "JP",
+    "population": 8336599
+  }
+}
